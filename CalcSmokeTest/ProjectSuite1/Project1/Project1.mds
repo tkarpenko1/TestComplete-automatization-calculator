@@ -1,0 +1,2777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{67BABB57-C30E-473F-8F44-9140508A836A}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="KeywordTests\KeywordTests.tcKDT"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{D75C9C32-0F2A-47C8-92EA-93D64FFA59F3}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+				<Prp name="typename" type="S" value="Keyword Testing"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Script\Script.tcScript"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{A3A3979E-199A-4FA0-A671-13581042A7D8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+				<Prp name="typename" type="S" value="Script"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="item data">
+					<Prp name="storage" type="S" value="Events\Events.tcAX"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{C89F1763-5732-4CB4-B887-6501011254B8}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}"/>
+				<Prp name="typename" type="S" value="Events"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{1968D4EA-E769-43B2-8EDD-2B63CF4C4146}"/>
+				<Prp name="pluginname" type="S" value="NameMapping"/>
+				<Prp name="type" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
+				<Prp name="typename" type="S" value="Name Mapping"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{075FC7B9-FCA4-493B-95A3-32AE952EC714}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}"/>
+				<Prp name="typename" type="S" value="Stores"/>
+			</Node>
+			<Node name="item0000000005">
+				<Node name="item data">
+					<Prp name="storage" type="S" value="TestedApps\TestedApps.tcTAs"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{DAB54197-D41E-4F72-9A4B-1183616B89EC}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+				<Prp name="typename" type="S" value="Tested Applications"/>
+			</Node>
+		</Node>
+		<Node name="config">
+			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+		</Node>
+		<Node name="folders">
+			<Node name="folders">
+				<Node name="folder0000000000">
+					<Node name="folders"/>
+					<Node name="references">
+						<Node name="ref0000000000">
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{A3A3979E-199A-4FA0-A671-13581042A7D8}"/>
+						</Node>
+						<Node name="ref0000000001">
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{C89F1763-5732-4CB4-B887-6501011254B8}"/>
+						</Node>
+						<Node name="ref0000000002">
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{075FC7B9-FCA4-493B-95A3-32AE952EC714}"/>
+						</Node>
+					</Node>
+					<Prp name="caption" type="S" value="Advanced"/>
+					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="moniker" type="S" value="{69583268-92F3-49FA-B573-C831F5ABC27B}"/>
+				</Node>
+			</Node>
+		</Node>
+		<Node name="issue tracking">
+			<Prp name="key" type="S" value="{85243608-5DDE-4844-8261-C953BEA1A6FC}"/>
+		</Node>
+		<Node name="scc"/>
+		<Node name="settings">
+			<Node name="{0bd6ae2e-e5d9-4ad0-9bf3-2483d329b22a}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{0be15905-46a9-40d6-9be2-892ec4aabbd4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{0cc2421a-8395-402e-b303-80ae4d4658a4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{0def6033-13d4-4335-97e9-cc6f1fc04342}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{1398b0be-92b7-4650-a467-751b8faab738}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Update existing frames and capture new frames, if needed"/>
+				<Prp name="val0x1" type="S" value="Update existing frames only"/>
+			</Node>
+			<Node name="{15c8845f-53e4-4045-9800-74766abc4b34}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="{18fd096e-e6b8-4d3d-9619-71670fc81d48}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{1db8307d-fa4b-43e7-8e11-9f8f41abd7e9}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{2044dc7f-423e-4668-8114-68d23ae97ad6}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="50"/>
+			</Node>
+			<Node name="{239ae5e0-d898-415d-8ecb-ebeb31d3f66f}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="B" value="0"/>
+				<Prp name="val1x0" type="S" value="*"/>
+			</Node>
+			<Node name="{24db98d6-5ef8-47bf-977e-c2fd2c5f5fb3}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Node name="{2fcb2eb2-336e-4fd4-96a3-8710a73addd8}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{323facda-38e8-4c1b-b22c-99e0ab90eadc}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{33c0a94e-7f58-493c-bccc-91685352f9b4}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="*"/>
+			</Node>
+			<Node name="{3a4f97b3-d3d3-41e5-be37-c419b02d488a}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="2"/>
+				<Prp name="col3enabled" type="B" value="-1"/>
+				<Prp name="col3type" type="I" value="2"/>
+				<Prp name="col4enabled" type="B" value="-1"/>
+				<Prp name="col4type" type="I" value="5"/>
+				<Prp name="col5enabled" type="B" value="-1"/>
+				<Prp name="col5type" type="I" value="1"/>
+				<Prp name="colcount" type="I" value="6"/>
+				<Prp name="colindex" type="I" value="5"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="{3ae91bbd-f37d-40e6-b49d-d2f1ef68e285}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{3b76535b-58ad-456c-837e-091a5c480f6c}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{3baa9083-ae46-48ce-bff4-a656decf8e2f}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{3e8baa4f-ea09-4dd1-bd8e-da765c8cf39b}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{3eadafe2-0cd4-4b1e-a2a9-b184e94fdcc7}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="4"/>
+				<Prp name="rowindex" type="I" value="3"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="UTF-16"/>
+				<Prp name="val0x1" type="S" value="UTF-8"/>
+				<Prp name="val0x2" type="S" value="ANSI"/>
+				<Prp name="val0x3" type="S" value="Auto"/>
+			</Node>
+			<Node name="{3eddd87d-14fb-46fb-9609-cede76c0ced7}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{3fc03b2f-1b76-433d-86ae-20b18b2ca600}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{3fc2a7b4-f4af-4807-8d37-c3ee096dd330}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="1024"/>
+			</Node>
+			<Node name="{45ae3709-5569-4f74-bd85-c222c71981ed}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{47a56f4f-f2d3-4697-bec8-632b29d5a344}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="7"/>
+				<Prp name="rowindex" type="I" value="6"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="B" value="0"/>
+				<Prp name="val0x1" type="B" value="-1"/>
+				<Prp name="val0x2" type="B" value="-1"/>
+				<Prp name="val0x3" type="B" value="-1"/>
+				<Prp name="val0x4" type="B" value="-1"/>
+				<Prp name="val0x5" type="B" value="-1"/>
+				<Prp name="val0x6" type="B" value="0"/>
+				<Prp name="val1x0" type="S" value="*"/>
+				<Prp name="val1x1" type="S" value="MsoCommandBar*"/>
+				<Prp name="val1x2" type="S" value="_Ww*"/>
+				<Prp name="val1x3" type="S" value="OpusApp"/>
+				<Prp name="val1x4" type="S" value="Vfp*"/>
+				<Prp name="val1x5" type="S" value="bosa_sdm_Microsoft Word *"/>
+				<Prp name="val1x6" type="S" value="Internet Explorer_Server"/>
+			</Node>
+			<Node name="{4fd668cc-c8c3-46b4-a220-8dde5cd7a39f}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="3"/>
+				<Prp name="colindex" type="I" value="2"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="{514928df-4020-463c-9796-ef236d7831c5}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{596ca0d0-27cb-40d3-baa5-bc1cecff25ac}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="3"/>
+				<Prp name="colindex" type="I" value="2"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="{6ba39d6a-88c9-49b1-a310-a31f46136dfb}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{6be019a2-a836-4b31-84d9-f9de78869d51}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Tree"/>
+				<Prp name="val0x1" type="S" value="Flat"/>
+			</Node>
+			<Node name="{74cc9f3b-2e52-4b16-844a-9ee33532b51e}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{7e9d3e8b-dff5-4737-a877-e94b6b932bcd}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{85cd048a-29ff-4abf-95a6-b915aea2c10d}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{890c6d5a-4706-498e-a6ea-ca765851bb97}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="4"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Use all processes"/>
+				<Prp name="val0x1" type="S" value="Use only tested applications"/>
+				<Prp name="val0x2" type="S" value="Use only selected processes"/>
+				<Prp name="val0x3" type="S" value="Ignore selected processes"/>
+			</Node>
+			<Node name="{90fd1116-f071-44c8-ab72-f1916c2b3a1b}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{9273e75a-1d1d-4f5f-9421-28a4bd60d485}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{949057fa-cbdc-4a23-bb7f-9a25dcae8729}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="3"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Off"/>
+				<Prp name="val0x1" type="S" value="Capture images only"/>
+				<Prp name="val0x2" type="S" value="Capture images and test object info"/>
+			</Node>
+			<Node name="{94ace9b9-2204-49e3-89a5-87766c9a615e}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="{95e3327a-7433-4a00-9257-6e9a4b4f1795}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="ID"/>
+				<Prp name="val0x1" type="S" value="Name"/>
+			</Node>
+			<Node name="{98c6a210-59ef-4cd6-aa7e-b41953dec74a}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{9eb8e8e6-d2f2-4a8a-adfb-492e8c0eafef}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="10000"/>
+			</Node>
+			<Node name="{a2568cc8-7e8e-42c5-a87d-b69684a1e616}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{a383ba1a-68cf-40ae-9fcd-b3e554e9add7}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="3"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Off"/>
+				<Prp name="val0x1" type="S" value="Capture images only"/>
+				<Prp name="val0x2" type="S" value="Capture images and test object info"/>
+			</Node>
+			<Node name="{a4d0b1b0-14da-4afa-8afc-e82d0400e7e9}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{abe9c069-5d2d-4fba-b1b0-ff96c0f0b1f6}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="4"/>
+				<Prp name="rowindex" type="I" value="3"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="DOM"/>
+				<Prp name="val0x1" type="S" value="Tag"/>
+				<Prp name="val0x2" type="S" value="Hybrid"/>
+				<Prp name="val0x3" type="S" value="Tree"/>
+			</Node>
+			<Node name="{ae3f26d8-a5bd-4172-9f50-f2b9d1d03611}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{bc2725ab-c90d-4761-beb2-abace30fe554}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{be6d588c-bdc7-42e0-8bae-3e3d8b0f7e83}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{bf9b6482-cea1-4402-ba61-9702404f1f12}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{c3267834-69e4-4cd8-b16a-b60a9bb8a3b4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{c32b04f8-59f6-4f95-8e50-12818e0decc7}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="5"/>
+				<Prp name="rowindex" type="I" value="3"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="pmLowest"/>
+				<Prp name="val0x1" type="S" value="pmLower"/>
+				<Prp name="val0x2" type="S" value="pmNormal"/>
+				<Prp name="val0x3" type="S" value="pmHigher"/>
+				<Prp name="val0x4" type="S" value="pmHighest"/>
+			</Node>
+			<Node name="{c371f52c-2f81-459b-8a40-380aaa4fb590}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{c8f95d39-4ac0-4855-9d60-6e7e3bd87b30}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{ce0b0b5b-f813-482e-bbec-6e12a96d3b83}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{ce44e748-e2ab-42c5-ab4c-e03d244313c2}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{d5773345-4407-4a8a-ace6-0f0a9c8787c8}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{d80391d4-892f-4cec-865e-b7facb3fac84}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="10"/>
+			</Node>
+			<Node name="{e3ac1830-9216-4dc9-ab7b-884f3b0e9a48}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="{e47a2931-ee5d-42d2-8cb7-3796de597aa1}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{e5242a20-9b70-4540-aefd-7012791d3284}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{ef07b18f-c1b0-489e-84ef-a6a0a578c45c}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Top-level parent"/>
+				<Prp name="val0x1" type="S" value="Desktop"/>
+			</Node>
+			<Node name="{ef65967b-5d67-41d0-9e90-1e07d7ece759}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="12"/>
+				<Prp name="rowindex" type="I" value="11"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="NativeWebObject"/>
+				<Prp name="val0x1" type="S" value="NativeVBObject"/>
+				<Prp name="val0x10" type="S" value="NativeUIAObject"/>
+				<Prp name="val0x11" type="S" value="NativeMSAA"/>
+				<Prp name="val0x2" type="S" value="NativeDelphiObject"/>
+				<Prp name="val0x3" type="S" value="NativeTextObject"/>
+				<Prp name="val0x4" type="S" value="NativeJavaObject"/>
+				<Prp name="val0x5" type="S" value="NativeClrObject"/>
+				<Prp name="val0x6" type="S" value="NativeCPPObject"/>
+				<Prp name="val0x7" type="S" value="NativeFirefoxObject"/>
+				<Prp name="val0x8" type="S" value="NativeJavaFXObject"/>
+				<Prp name="val0x9" type="S" value="NativeQtObject"/>
+			</Node>
+			<Node name="{f544bc81-7a86-4230-b1fc-1b685211a0b4}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Format: PNG; Compression level: 4"/>
+			</Node>
+			<Node name="{f7c29680-06bb-4f85-b0e3-c06ae2282a66}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{fb1caf99-7fa6-447c-b963-d862ca8bff89}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="3000"/>
+			</Node>
+			<Node name="{fe195f25-7dc0-457f-9336-71ed39243753}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_"/>
+			</Node>
+			<Node name="applicationhangingprocessfiltermode">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="5"/>
+				<Prp name="rowindex" type="I" value="4"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Use all processes"/>
+				<Prp name="val0x1" type="S" value="Use only tested applications"/>
+				<Prp name="val0x2" type="S" value="Use only selected processes"/>
+				<Prp name="val0x3" type="S" value="Ignore selected processes"/>
+				<Prp name="val0x4" type="S" value="Ignore all processes"/>
+			</Node>
+			<Node name="applicationhangingprocesslist">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="applicationhangingtimeout">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="30000"/>
+			</Node>
+			<Node name="clrbridge_preferredapartmentmodel">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="3"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Does not matter"/>
+				<Prp name="val0x1" type="S" value="Single-threaded apartment"/>
+				<Prp name="val0x2" type="S" value="Multi-threaded apartment"/>
+			</Node>
+			<Node name="clrbridge_preferredarchitecture">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="3"/>
+				<Prp name="rowindex" type="I" value="1"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="The same as the operating system"/>
+				<Prp name="val0x1" type="S" value="32-bit"/>
+				<Prp name="val0x2" type="S" value="64-bit"/>
+			</Node>
+			<Node name="clrbridge_selectedcomponents">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="1"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="countprocessesofallusers">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="draggingdelay">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="5"/>
+			</Node>
+			<Node name="javabridge_classes">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="javabridge_classpaths">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="javafxopenapp_donotrecognizejavafxstageasawtcomponent">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="javafxopenapp_exposedcustomnodes">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="3"/>
+				<Prp name="colindex" type="I" value="2"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="javafxopenapp_nodebyclassnamefilters">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="1"/>
+				<Prp name="colcount" type="I" value="3"/>
+				<Prp name="colindex" type="I" value="2"/>
+				<Prp name="rowcount" type="I" value="7"/>
+				<Prp name="rowindex" type="I" value="6"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="B" value="0"/>
+				<Prp name="val0x1" type="B" value="-1"/>
+				<Prp name="val0x2" type="B" value="-1"/>
+				<Prp name="val0x3" type="B" value="0"/>
+				<Prp name="val0x4" type="B" value="0"/>
+				<Prp name="val0x5" type="B" value="0"/>
+				<Prp name="val0x6" type="B" value="-1"/>
+				<Prp name="val1x0" type="S" value="*"/>
+				<Prp name="val1x1" type="S" value="javafx.scene.control.Control"/>
+				<Prp name="val1x2" type="S" value="javafx.scene.web.WebView"/>
+				<Prp name="val1x3" type="S" value="javafx.scene.canvas.Canvas"/>
+				<Prp name="val1x4" type="S" value="javafx.scene.image.ImageView"/>
+				<Prp name="val1x5" type="S" value="javafx.scene.media.MediaView"/>
+				<Prp name="val1x6" type="S" value="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer"/>
+				<Prp name="val2x0" type="B" value="0"/>
+				<Prp name="val2x1" type="B" value="-1"/>
+				<Prp name="val2x2" type="B" value="0"/>
+				<Prp name="val2x3" type="B" value="-1"/>
+				<Prp name="val2x4" type="B" value="-1"/>
+				<Prp name="val2x5" type="B" value="-1"/>
+				<Prp name="val2x6" type="B" value="-1"/>
+			</Node>
+			<Node name="javaopenapp_donotrecognizechildswtasparent">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="keypressingdelay">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="mousemovementdelay">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="objectmapping_objects">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="2"/>
+				<Prp name="col3enabled" type="B" value="-1"/>
+				<Prp name="col3type" type="I" value="2"/>
+				<Prp name="colcount" type="I" value="4"/>
+				<Prp name="colindex" type="I" value="3"/>
+				<Prp name="rowcount" type="I" value="9"/>
+				<Prp name="rowindex" type="I" value="8"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="javafx.scene.control.TextBox"/>
+				<Prp name="val0x1" type="S" value="*TrackBar*"/>
+				<Prp name="val0x2" type="S" value="*ScrollBar*"/>
+				<Prp name="val0x3" type="S" value="*StatusBar*"/>
+				<Prp name="val0x4" type="S" value="javax.swing.JMenu"/>
+				<Prp name="val0x5" type="S" value="*COMBOBOX*"/>
+				<Prp name="val0x6" type="S" value="DevExpress.XtraGrid.Views.Layout.LayoutView"/>
+				<Prp name="val0x7" type="S" value="DevExpress.XtraGrid.Views.Card.CardView"/>
+				<Prp name="val0x8" type="S" value="DevExpress.XtraGrid.Views.Grid.GridView"/>
+				<Prp name="val1x0" type="S" value="{C874EE80-E334-461F-865A-6534D010ABE2}"/>
+				<Prp name="val1x1" type="S" value="{82A06E44-FA22-474C-8913-A5C63854D9F4}"/>
+				<Prp name="val1x2" type="S" value="{23375892-4DD6-11D5-A0A0-0050DA82B17A}"/>
+				<Prp name="val1x3" type="S" value="{CC40A511-13AD-11D6-A1B1-0050DA82B17A}"/>
+				<Prp name="val1x4" type="S" value="{EBABD24B-370C-469D-ABEB-75AFA4C9C1AE}"/>
+				<Prp name="val1x5" type="S" value="{4ED1CDF0-2C75-11D4-8EF9-005004347D8A}"/>
+				<Prp name="val1x6" type="S" value="{8E3C05BE-FA7D-4EC1-BA2C-EA96E9452159}"/>
+				<Prp name="val1x7" type="S" value="{FE0C084C-EBEB-4DB7-8FB9-62F22DD20C5E}"/>
+				<Prp name="val1x8" type="S" value="{77160B2A-B463-40D5-B817-1EC93AAB9B4A}"/>
+				<Prp name="val2x0" type="I" value="4"/>
+				<Prp name="val2x1" type="I" value="4"/>
+				<Prp name="val2x2" type="I" value="4"/>
+				<Prp name="val2x3" type="I" value="4"/>
+				<Prp name="val2x4" type="I" value="5"/>
+				<Prp name="val2x5" type="I" value="4"/>
+				<Prp name="val2x6" type="I" value="5"/>
+				<Prp name="val2x7" type="I" value="5"/>
+				<Prp name="val2x8" type="I" value="5"/>
+				<Prp name="val3x0" type="I" value="0"/>
+				<Prp name="val3x1" type="I" value="0"/>
+				<Prp name="val3x2" type="I" value="0"/>
+				<Prp name="val3x3" type="I" value="0"/>
+				<Prp name="val3x4" type="I" value="12"/>
+				<Prp name="val3x5" type="I" value="0"/>
+				<Prp name="val3x6" type="I" value="12"/>
+				<Prp name="val3x7" type="I" value="12"/>
+				<Prp name="val3x8" type="I" value="12"/>
+			</Node>
+			<Node name="recording_testedappsonly">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="recreateactivexobjects">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="textrecognizer_acceptedwindows">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Prp name="key" type="S" value="{60DA8AE9-CA18-4536-897B-18D72B54DE0D}"/>
+			<Prp name="settingsversion" type="S" value="10.40"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item0000000000">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{8D34A139-E41E-43E3-8EA5-B8CF62370A69}"/>
+							<Prp name="name" type="S" value="RunApp"/>
+							<Prp name="stoponerror" type="I" value="0"/>
+							<Prp name="stoponexception" type="I" value="0"/>
+							<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{C5BDCD19-E0CF-4C20-8E9B-238565490534}"/>
+							<Prp name="name" type="S" value="Addition"/>
+							<Prp name="stoponerror" type="I" value="0"/>
+							<Prp name="stoponexception" type="I" value="0"/>
+							<Prp name="test moniker" type="S" value="{CC0CB684-0AAC-4894-B0D6-B375D3FC317E}Main"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{9BC931AA-07F5-4EC3-BE97-1497C93F3DD3}"/>
+							<Prp name="name" type="S" value="Subtraction"/>
+							<Prp name="stoponerror" type="I" value="0"/>
+							<Prp name="stoponexception" type="I" value="0"/>
+							<Prp name="test moniker" type="S" value="{7878DA9B-0FE1-44E5-B7C3-4CEFDDE36D0A}Main"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{0562AC60-C5D2-466D-893E-7D37F94546CB}"/>
+							<Prp name="name" type="S" value="Multiplication"/>
+							<Prp name="stoponerror" type="I" value="0"/>
+							<Prp name="stoponexception" type="I" value="0"/>
+							<Prp name="test moniker" type="S" value="{8720AE9D-A33C-4E28-9C6D-67CB852E15B2}Main"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000004">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="4"/>
+							<Prp name="key" type="S" value="{DF1BB0E0-1495-44A9-80CC-4830E29D53C9}"/>
+							<Prp name="name" type="S" value="Division"/>
+							<Prp name="stoponerror" type="I" value="0"/>
+							<Prp name="stoponexception" type="I" value="0"/>
+							<Prp name="test moniker" type="S" value="{12EA4DD7-A13E-40A9-BA35-A856315406B4}Main"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000005">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="5"/>
+							<Prp name="key" type="S" value="{F7AE6EB5-4384-4FFF-8B0A-A5A8DEE645A5}"/>
+							<Prp name="name" type="S" value="CloseApp"/>
+							<Prp name="stoponerror" type="I" value="0"/>
+							<Prp name="stoponexception" type="I" value="0"/>
+							<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="key" type="S" value="{92E963A8-1632-416E-BCF1-D76416D7012D}"/>
+					<Prp name="name" type="S" value="Calculation"/>
+					<Prp name="stoponerror" type="I" value="0"/>
+					<Prp name="stoponexception" type="I" value="0"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000001">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{0768D4CD-86F4-40E1-8EDA-20B01511B325}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{72EAC218-8465-4D92-BDD6-273F3252106F}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{CC0CB684-0AAC-4894-B0D6-B375D3FC317E}simpleOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{0B370677-0939-460E-AF29-3D7D7F23551E}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{5ED2B6B3-EF3E-4D7A-9CB9-F486120C760B}"/>
+							<Prp name="name" type="S" value="Simple"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{8452E4F8-C42E-45F9-8819-D40D82BED278}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{2BB30C6A-D3CF-4F35-87C8-4B7426CAB6EE}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{CC0CB684-0AAC-4894-B0D6-B375D3FC317E}boundaryOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{EE5936B1-7299-4191-A0EC-CCDF9D77E987}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{D2815A4E-2EB1-4228-9758-CA2B705E2945}"/>
+							<Prp name="name" type="S" value="Boundary"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{49D14FC1-9817-4A04-82B5-C0A29AF17C80}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{424DA2DF-F517-4D72-BA28-3224AE685FE0}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{CC0CB684-0AAC-4894-B0D6-B375D3FC317E}bigValueOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{783907F8-0821-4EAF-BAAA-B93915F224F7}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{BD3DC240-ABB7-4CC4-A48E-024FD09A03CA}"/>
+							<Prp name="name" type="S" value="Big value"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{61C9A8F2-021C-4728-AADE-97B455B16C15}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{BC8FE0B9-7BCC-44CD-A3CC-3906AF89EF48}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{CC0CB684-0AAC-4894-B0D6-B375D3FC317E}multiAddOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{76F39E7E-CC74-49A6-BEF2-50F3AF75BB63}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{543A88A4-E536-43EF-BA9E-190ACE8764E8}"/>
+							<Prp name="name" type="S" value="Multi add"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="1"/>
+					<Prp name="key" type="S" value="{F062154D-DA30-42D3-B917-0434F121E17E}"/>
+					<Prp name="name" type="S" value="Addition "/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000002">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{B8EA29E9-18C4-4C4E-9EB7-BDE9497A1CDA}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{954C6D99-EB3B-411B-A950-7FDDF2482CE4}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{7878DA9B-0FE1-44E5-B7C3-4CEFDDE36D0A}simpleOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{CD5E30E8-DA69-4580-BA9E-3E7F55C389DC}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{07C24B5A-1713-4334-AE74-1DD36489FF7A}"/>
+							<Prp name="name" type="S" value="Simple"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{A48785C0-74B2-4F01-B62F-B1EF8C8BCB6A}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{32D01497-BAF6-475B-AC50-58A94A4C2F9F}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{7878DA9B-0FE1-44E5-B7C3-4CEFDDE36D0A}boundaryOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{C6B4A964-BCB4-401D-8831-A78F3F8D0948}"/>
+									<Prp name="name" type="S" value="close application_2"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{8AECCE55-0EC1-435F-BECD-6A71B2E13398}"/>
+							<Prp name="name" type="S" value="Boundary"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{028E65FE-172E-43C9-B171-0A42FE1A78FF}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{BE49D364-471C-4A37-BF5E-BC566579B3A4}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{7878DA9B-0FE1-44E5-B7C3-4CEFDDE36D0A}bigValueOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{70127B77-61D1-4DB4-BDAA-4CF16170103B}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{E4956C21-24FC-4B5D-9935-261F7A513661}"/>
+							<Prp name="name" type="S" value="Big value"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{D85F01ED-4281-4189-A9F6-44567BF36236}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{8B116711-3ADD-4AC7-BB03-CB808F46BFDC}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{7878DA9B-0FE1-44E5-B7C3-4CEFDDE36D0A}specificCasesOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{2EC57424-EBDA-4766-933A-0D4FE6BA7016}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{F0D24FE4-B0FB-4C68-B3C6-CDB96CF8746B}"/>
+							<Prp name="name" type="S" value="Specific cases"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="2"/>
+					<Prp name="key" type="S" value="{47F95B58-E9F9-4D09-B06B-2426CD200A73}"/>
+					<Prp name="name" type="S" value="Subtraction "/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000003">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{176FC603-43E2-447A-9F12-F2A392BAF327}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{36E8E5D0-FAD0-4706-9386-2D02B4AEB183}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{8720AE9D-A33C-4E28-9C6D-67CB852E15B2}simpleOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{5B940CBB-7F4B-4315-98EE-A81EC81FA9B8}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{A040643D-8425-4BF2-9CBA-047E9350E09C}"/>
+							<Prp name="name" type="S" value="Simple"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{BC5C10DA-B86C-4709-87C9-48D54D790C0F}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{4BD200A6-094D-4041-B5D9-651A2E0A0FE9}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{8720AE9D-A33C-4E28-9C6D-67CB852E15B2}boundaryOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{32CA90A7-2C38-4773-B503-682094A46174}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{43E29916-8B6D-410A-A467-EA8B8634177F}"/>
+							<Prp name="name" type="S" value="Boundary"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{D6AAC32C-6C38-4B79-8383-ED6DCD287202}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{DD614E24-5734-4B6B-9453-9AA828DDFF9D}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{8720AE9D-A33C-4E28-9C6D-67CB852E15B2}bigValueOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{89A049A7-B93D-475E-BB3D-3628797DC765}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{C0C57D7C-F29B-490B-A9D4-F95BD82CB8DE}"/>
+							<Prp name="name" type="S" value="Big value"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{0FF4DDD0-9665-4111-BCF1-A57813E01BA7}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{4A272BAB-EE41-4D4F-AE76-9632B7586402}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{8720AE9D-A33C-4E28-9C6D-67CB852E15B2}specificCases"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{745B87DA-32D5-41CF-8465-5BDF17A334EA}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{DF26997B-E937-4A95-A7F3-2B0B9BDA2788}"/>
+							<Prp name="name" type="S" value="Specific cases"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="3"/>
+					<Prp name="key" type="S" value="{72955FB3-6CA9-4309-81EA-35A791D8E33C}"/>
+					<Prp name="name" type="S" value="Multiplication"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000004">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{8362BD2C-4FFB-4A21-90B1-2F03F1E29163}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{BC19E8E0-BBF8-4C45-99BA-82C12690DD77}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{12EA4DD7-A13E-40A9-BA35-A856315406B4}simpleOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{CAEB7042-6253-49AF-8358-F6EE089118AE}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{1988CAA1-0FBC-425D-BAE4-0BCACFFB87A4}"/>
+							<Prp name="name" type="S" value="Simple"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{22280530-64C1-4A6D-9F05-4A78EEA03EA0}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{F04C587A-D6BA-4D77-BA06-18371B741CB7}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{12EA4DD7-A13E-40A9-BA35-A856315406B4}boundaryOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{ADAB4812-3E49-4358-A5A3-D006FF99D552}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{4491A9C7-E99D-46EA-87B1-56081BE840A0}"/>
+							<Prp name="name" type="S" value="Boundary"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{0231D8D0-A3EA-4930-94C0-789398FDB386}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{06E9EFA1-76CA-45EC-B627-AA197FDB7C18}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{12EA4DD7-A13E-40A9-BA35-A856315406B4}bigValueOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{F6383D1F-4E26-4DDD-8850-B62E070BD6BD}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{38C1DA03-55B5-4341-951F-BE272E24930D}"/>
+							<Prp name="name" type="S" value="Big value"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{4A4A49B5-3187-4ABA-BE4C-C29CFB969B3E}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{85FDD0ED-D38D-41FB-941E-4D14D406565B}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{12EA4DD7-A13E-40A9-BA35-A856315406B4}specificCases"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{40BC5033-24A1-4055-B57E-04C4BBF6FE55}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{B2AC655E-BDA9-4BA0-A626-518655DAC72B}"/>
+							<Prp name="name" type="S" value="Specific cases"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="4"/>
+					<Prp name="key" type="S" value="{76E42C32-7528-4420-9D8E-2F2482339F1D}"/>
+					<Prp name="name" type="S" value="Division"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000005">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{4B06AB94-074F-4C51-B8F0-15507B6D70F6}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{BDF6DBC2-FDAE-4579-B896-890E6607401F}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{C1B883F2-A61B-42E7-B880-5E1E35C8DF3F}simpleOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{11D96F61-861D-4D4D-B61A-5B19603D7C82}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{01C974BF-AF62-40F0-BA3A-F48E2E5F3338}"/>
+							<Prp name="name" type="S" value="Simple"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{3D637B27-9F83-4E70-B8FC-A05A7107ABE3}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{CA368BA9-317B-4779-A43A-988B17CCFCBC}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{C1B883F2-A61B-42E7-B880-5E1E35C8DF3F}bigValueOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{1A48E7EF-66D7-423A-BAFD-C81E434FB0AB}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{0C93F7F6-E957-42EF-B4E5-76BA524E424B}"/>
+							<Prp name="name" type="S" value="Big value"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{7A3887EC-E970-46AF-9B12-AAA49CE01565}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{6F0271CE-B465-42DB-95BF-2A8D57C739F7}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{C1B883F2-A61B-42E7-B880-5E1E35C8DF3F}multiSqrtOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{45A203D7-0890-4D84-9C79-58B1347F65A3}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{3FF54A2C-B277-4B10-9DEA-3CC5503D1008}"/>
+							<Prp name="name" type="S" value="Multi"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{304686BD-C035-4EBB-B784-3AC98E3C1B1D}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{43DEC420-01E8-4936-97F1-FC286FE2A4EF}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{C1B883F2-A61B-42E7-B880-5E1E35C8DF3F}specificCases"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{13B5462F-95CF-4684-B842-7ABB76D6AAEE}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{64A37DDF-8CEC-4974-A79F-EDC83A440168}"/>
+							<Prp name="name" type="S" value="Specific cases"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="5"/>
+					<Prp name="key" type="S" value="{86E20DFE-8E47-4D52-B84A-AE1BABDA8C64}"/>
+					<Prp name="name" type="S" value="Radical"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000006">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{A70FB0AE-C94C-404B-B50D-BBC216D96B3F}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{020CE306-42F8-4DF4-9E57-22E8F159FE89}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{4F1EA952-AC57-4E60-8D8A-B9C731E92099}simpleOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{768E77B2-13FA-46DB-911B-3828EBD80ADB}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{075057D8-3010-4E92-A2BC-995913FB06C1}"/>
+							<Prp name="name" type="S" value="Simple"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{ADFF506D-2B75-4067-97D7-AD2E01F116F7}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{A412AEC6-E048-42F1-8E6B-50618BF8A6F7}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{4F1EA952-AC57-4E60-8D8A-B9C731E92099}boundaryOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{CF019A57-3D64-4D2C-8FD5-4B29FB4871F6}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{2BA48AA0-B3BE-4169-846E-323CA6B49549}"/>
+							<Prp name="name" type="S" value="Boundary"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{83BA3A67-B708-4956-A8D3-023817A08B0C}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{511D8F70-AE6D-4F4C-A2C8-1BB9DBDF1A94}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{4F1EA952-AC57-4E60-8D8A-B9C731E92099}bigValueOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{E225FC85-8D98-4F72-88FE-813A5107D91D}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{5CC8A811-958A-4D6E-AB00-054778E8706B}"/>
+							<Prp name="name" type="S" value="Big value"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="6"/>
+					<Prp name="key" type="S" value="{36EB9B75-79B2-41C2-B2D8-BA49CDB99538}"/>
+					<Prp name="name" type="S" value="Percent"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000007">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{AF3FAF81-55D7-4C20-AD70-0B9A8F8D92D7}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{D6B92186-B92B-403D-892F-E42FCE8128BE}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{339487D5-DBF2-4D53-B87E-570EACB04655}simpleOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list">
+										<Node name="item0000000000">
+											<Node name="child list"/>
+											<Node name="test parameters"/>
+											<Prp name="count" type="I" value="1"/>
+											<Prp name="description" type="S" value=""/>
+											<Prp name="enabled" type="B" value="-1"/>
+											<Prp name="group" type="B" value="0"/>
+											<Prp name="index" type="I" value="0"/>
+											<Prp name="key" type="S" value="{987D9985-656D-415A-85F4-06D85F69AC79}"/>
+											<Prp name="name" type="S" value="operations_2"/>
+											<Prp name="stoponerror" type="I" value="2"/>
+											<Prp name="stoponexception" type="I" value="2"/>
+											<Prp name="test moniker" type="S" value="{339487D5-DBF2-4D53-B87E-570EACB04655}simpleOperations"/>
+											<Prp name="timeout" type="I" value="0"/>
+										</Node>
+									</Node>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{53078F94-C41F-4B44-BEBE-EABB684FBF37}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{14A016A3-F123-4CF7-B946-09C9BC3615E0}"/>
+							<Prp name="name" type="S" value="Simple"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{133009EC-4D20-4395-80F6-A04D565A1662}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{3418C0DC-E04D-441D-A02E-3678D58DA8D0}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{339487D5-DBF2-4D53-B87E-570EACB04655}boundaryOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{D1CF2AAD-DE8F-4548-98A7-8EF97CC132BA}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{A1083472-2C3F-4575-B336-05FBF7676852}"/>
+							<Prp name="name" type="S" value="Boundary"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{6DCBE034-A282-4D4C-9642-7208DADD32EE}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{5CDD0F1C-1495-488B-B544-002CC5C45322}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{339487D5-DBF2-4D53-B87E-570EACB04655}bigValueOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{4CA8FEF9-1D89-40B3-B67F-E6ADD6673B92}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{46C264BF-543E-408D-993D-BEE12C9266BB}"/>
+							<Prp name="name" type="S" value="Big value"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{7DE22977-8970-4F4A-91FE-FE42C6B6BC06}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{B8F3AF0D-446D-4BCF-B36B-A9155253AF9D}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{339487D5-DBF2-4D53-B87E-570EACB04655}specificCases"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{95E9360E-1655-4141-B8AB-225A2DDA8D10}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{A2ED9C28-6DAA-4521-9EEC-68E26E825EBE}"/>
+							<Prp name="name" type="S" value="Specific cases "/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="7"/>
+					<Prp name="key" type="S" value="{58827F9C-2EE4-4501-B1F3-0CD68F0A4961}"/>
+					<Prp name="name" type="S" value="1/x"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000008">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list">
+								<Node name="item0000000000">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="0"/>
+									<Prp name="key" type="S" value="{0B69CA41-41C3-410A-8C76-443B5495B391}"/>
+									<Prp name="name" type="S" value="run application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}startApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000001">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="0"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="1"/>
+									<Prp name="key" type="S" value="{F8E0D890-7BC5-4B8D-9218-40A13FB71B5C}"/>
+									<Prp name="name" type="S" value="clear"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{DED2F802-45D8-464E-9F51-C42E5EC6F240}Main"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000002">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="2"/>
+									<Prp name="key" type="S" value="{9CF9A3E3-5809-48F1-BE99-2796CED99308}"/>
+									<Prp name="name" type="S" value="operations"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{81BDF5FA-9AAD-411E-B0AE-206AD3277D4B}simpleOperations"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+								<Node name="item0000000003">
+									<Node name="child list"/>
+									<Node name="test parameters"/>
+									<Prp name="count" type="I" value="1"/>
+									<Prp name="description" type="S" value=""/>
+									<Prp name="enabled" type="B" value="-1"/>
+									<Prp name="group" type="B" value="0"/>
+									<Prp name="index" type="I" value="3"/>
+									<Prp name="key" type="S" value="{213DCE16-FBEC-4CFB-B5D9-99D90DAB6BB4}"/>
+									<Prp name="name" type="S" value="close application"/>
+									<Prp name="stoponerror" type="I" value="2"/>
+									<Prp name="stoponexception" type="I" value="2"/>
+									<Prp name="test moniker" type="S" value="{3289FF61-461C-43DE-9807-258A5BF0D56B}closeApp"/>
+									<Prp name="timeout" type="I" value="0"/>
+								</Node>
+							</Node>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{74963D12-5B4F-425E-8E80-F6785178E804}"/>
+							<Prp name="name" type="S" value="Simple"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value=""/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="8"/>
+					<Prp name="key" type="S" value="{C8968509-4333-4A58-96FA-55ECAFEE2946}"/>
+					<Prp name="name" type="S" value="Memory"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{02C68237-0509-411E-AF55-8FD470B5B065}"/>
+		</Node>
+		<Node name="variables">
+			<Node name="datav3">
+				<Node name="var0">
+					<Node name="defvalue">
+						<Prp name="strvalue" type="H" value=" "/>
+					</Node>
+					<Prp name="category" type="H" value=" "/>
+					<Prp name="descr" type="H" value=" "/>
+					<Prp name="local" type="B" value="-1"/>
+					<Prp name="name" type="S" value="Digit"/>
+					<Prp name="type" type="S" value="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{1BF6F6C7-E66A-4752-9089-D0613048218C}"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Prp name="signature" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+		<Prp name="version" type="S" value="10.0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="79"/>
+			<Prp name="stacktext" type="S" value="calculationWithMemory"/>
+			<Prp name="unit id" type="I" value="2"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;ClickButton&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{1968D4EA-E769-43B2-8EDD-2B63CF4C4146}.{E55DB60E-E44E-4B44-B6F9-B017F3D72C2E}&quot;&gt;btnDigit&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.Sys.calc.wndCalculator.btnDigit&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.calc.wndCalculator.CalcFrame.page32770.btnDigit&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{1968D4EA-E769-43B2-8EDD-2B63CF4C4146}.{3C1C64DD-D6EF-43C3-8043-16EF4EB3CD29}&quot;&gt;Aliases.Sys.calc&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{1968D4EA-E769-43B2-8EDD-2B63CF4C4146}.{46C93EC5-1B29-4814-991A-B418344999B8}&quot;&gt;NameMapping.Sys.calc&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="41939.587183588"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="15"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="41939.5872613426"/>
+			</Node>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="Memory simple operations. Case 1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="41939.5867180671"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="23"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="41939.5872613426"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="11"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 1" type="S" value="{C6AE2A2E-74FE-45E2-B74D-E7C6A85A1E19}"/>
+			<Prp name="unit 2" type="S" value="{35724621-34D4-4DA3-9996-FBCBD98DB4D5}"/>
+			<Prp name="unit 3" type="S" value="{63F51749-410A-4F11-BE3C-08705FBDDDE7}"/>
+			<Prp name="unit 0" type="S" value="{81BDF5FA-9AAD-411E-B0AE-206AD3277D4B}"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="'MC' btn is absent, results could be incorrect"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="41939.5869510301"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="17"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="stacktext" type="S" value="numberClicking"/>
+			<Prp name="unit id" type="I" value="2"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="message" type="S" value="'Reset' btn is absent, results could be incorrect"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="41939.5868345602"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="stacktext" type="S" value="simpleOperations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>
